@@ -10,6 +10,7 @@ function ReadyForATrial() {
       height={"400px"}
       alignItems={"center"}
       width={"100%"}
+      py="50px"
     >
       <Grid
         templateColumns={{ base: "repeat(2, 1fr)", lg: "repeat(4, 1fr)" }}
@@ -56,7 +57,7 @@ function ReadyForATrial() {
           </Flex>
         </GridItem>
 
-        <GridItem colSpan={2} w="100%">
+        <GridItem colSpan={2} w="100%" pb={{ base: "100px", lg: "0px" }}>
           <Button children={" Create a free Account"} />
         </GridItem>
       </Grid>
