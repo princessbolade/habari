@@ -37,7 +37,6 @@ const NavBar = ({ language, setLanguage, as }) => {
       >
         Products
       </Text>
-      {as === "footer" && <hr />}
       <Text
         display={as !== "footer" ? { base: "none", lg: "block" } : "block"}
         className="cursor-pointer"
@@ -54,7 +53,7 @@ const NavBar = ({ language, setLanguage, as }) => {
       >
         Support
       </Text>
-      {as !== "footer" && <hr />}
+
       <Text
         display={as !== "footer" ? { base: "none", lg: "block" } : "block"}
         className="cursor-pointer"

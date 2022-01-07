@@ -1,7 +1,7 @@
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { Box, Flex, Grid, GridItem, Image, Text } from "@chakra-ui/react";
 import React from "react";
-import image1 from "../../assets/image1.png"; // Tell webpack this JS file uses this image
+import image1 from "../../assets/image1.png";
 import HighLight from "../HighLight";
 import LinkIcon from "../Link";
 
